@@ -1,0 +1,142 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>יובל נתיב- תיק עבודות</title>
+    <meta name="description" content="תיק העבודות שלי" />
+    <meta name="keywords" content="תיק עבודות, יובל נתיב, Protofolio" />
+    <meta name="author" content="יובל נתיב" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+
+</head>
+<body onload="startTab()">
+    <div id="container">
+        <header>
+            <h1>ברוכים הבאים</h1>
+            <h1>לתיק העבודות שלי</h1>
+            <div id="line"></div>
+            <p>נבנה במסגרת קורס פיתוח אתרים</p>
+        </header>
+        <section id="middle">
+            <p></p>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'TheLovers')" id="defaultOpen">The Lovers 2.0<br />  קורס מבוא לתקשורת חזותית</button>
+                <button class="tablinks" onclick="openTab(event, 'ActIL')">Act.IL<br /> קורס גרפיקה ממוחשבת</button>
+                <button class="tablinks" onclick="openTab(event, 'Portrait')">פרוטרט עצמי <br /> קורס מבוא לתקשורת חזותית</button>
+            </div>
+            <div id="TheLovers" class="tabcontent">
+                <p>
+                    במסגרת הקורס התבקשנו לקחת יצירה קיימת ולתת לה פרשנות <br />
+                    אישית ועכשווית.<br />
+                    יחד עם שניר זאבי, בחרנו את היצירה The Lovers <br />
+                    של René Magritte, ציור שמן משנת 1928.<br />
+                    הפרשנות שנתנו ליצירה היא ששתי הדמויות כמהות לאהבה <br />
+                    אך הן לא מסוגלות לראות את מה שנמצא מולן.<br />
+                </p>
+                <div id="video">
+                    <iframe width="204" height="146"
+                    src="https://www.youtube.com/embed/mbPXrZKMtjQ?rel=0" frameborder="0"; 
+                    allowfullscreen></iframe>
+                    <p>
+                        סרטון הסבר-<br />
+                        מהקונספט ועד לייצוג החזותי
+                    </p>
+                </div>
+                <div id="TLimage">
+                    <a href="images/The-Lovers.jpg" target="_blank">
+                        <img src="images/The-Lovers.jpg" width="204" height="146" />
+                    </a>
+                <p>התוצר הסופי <br />
+                לחץ לצפייה בגודל מלא</p>
+                </div>
+            </div>
+
+            <div id="ActIL" class="tabcontent">
+                <p>
+                    במסגרת הקורס התבקשנו ליצור ולעצב כרזה לכבוד שנות ה-70 של מדינת ישראל<br />
+                    אשר תדגיש את הדברים שמייחדים אותה, בשיתוף עם ארגון Act.IL.
+                </p>
+                <p>
+                    הרעיון שעומד מאחורי עיצוב הכרזה שעשיתי הוא הדגשת שלושת הדברים שלדעתי הכי מייחדים<br />
+                    את מדינת ישראל והם ההיסטוריה המדהימה, התרבות המגוונת והדו-קיום המיוחד במינו.<br />
+                    כמו כן, ניתן לראות שהחלק הכחול בהיר מציג את קווי המתאר של מדינת ישראל וכן מגן הדוד<br />
+                    שמזוהה עם הדגל והעם היהודי.<br />
+                    בחירת הצבעים הינה צבעי הדגל- גווני כחול ולבן.
+                </p>
+                <div id="ActImage">
+                    <a href="images/ACT.IL_POSTER_YuvalNativ.png" target="_blank">
+                        <img src="images/ACT.IL_POSTER_YuvalNativ.png" width="136" height="192" />
+                    </a>
+                <p>לחץ לצפייה בגודל מלא</p>
+                </div>
+            </div>
+
+            <div id="Portrait" class="tabcontent">
+                <p>
+                    במסגרת הקורס התבקשנו ליצור פרוטרט עצמי שיציג אותנו בצורה ויזואלית. <br />
+                    הקונספט של הפרוטרט מדבר על האישיות שלי שנבנתה ממילים רבות שנאמרו <Br />ורגשות אותם חוויתי במהלך חיי <br />
+                    בחרתי לדמות זאת בשיטת Word Cloud, ובפוטושופ עיצבתי כך שהמילים מרכיבות <br />
+                    את התמונה שלי וכן מקיפות אותי, על מנת להעביר את המסר שזה מה שעיצב אותי.
+                </p>
+                <p>
+                   הפרוטרט נבנה בהשראת השיר Fucking Perfect של הזמרת Pink:
+                </p>
+                <div id="audioPortrait">
+                    <audio controls="controls">
+                        <source src="audio/PinkFucKINPerfect.mp3" type="audio/mp3" />
+                        <source src="audio/PinkFucKINPerfect.ogg" type="audio/ogg" />
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div id="portraitImg">
+                    <a href="images/YuvalNativ_Portrait.jpg" target="_blank">
+                        <img src="images/YuvalNativ_Portrait.jpg" width="239" height="183" />
+                    </a>
+                    <p>
+                        לחץ לצפייה בגודל מלא
+                    </p>
+                </div>
+</section>
+        <section id="bottom">
+            <div id="arrow"></div>
+            <h1>יובל נתיב</h1>
+            <p>נעים מאוד להכיר</p>
+            <div id="aboutme">
+                <p>
+                    בת 25, ממודיעין.<br />
+                    סטודנטית שנה א’ לתואר ראשון בטכנולוגיות למידה בHIT,<br />
+                    המכון הטכנולוגי חולון.<br />
+                    מתעניינת בעיצוב ותכנות מגיל צעיר ורוצה לעסוק בכך בעתיד.
+                </p>
+                <p>מוזמנים ליצור איתי קשר:</p>
+                <a href="mailto:yuval.nativv@gmail.com?subject=NewMailFromSite" target="_blank">מייל</a>
+                <a href="https://www.facebook.com/yuval.nativ.7" target="_blank">פייסבוק</a>
+            </div>
+            <div id="skills">
+                <h2>מיומנויות</h2>
+                <ul>
+                    תוכנות
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Animate</li>
+                </ul>
+                <ul>
+                    פיתוח
+                    <li>HTML / CSS</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
