@@ -115,12 +115,20 @@ header p {
     padding-top: 20px;
     padding-right: 10px;
     line-height: normal;
+    display: inline-block;
+    float: right;
+}
+
+#mediaTL {
+    float: left;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 25px;
 }
 
 #video {
-    position: absolute;
-    left: 218px;
-    top: 560px;
+    display: inline-block;
+    padding-left: 20px;
 }
 
     #video p {
@@ -131,9 +139,7 @@ header p {
     }
 
 #TLimage {
-    position: absolute;
-    left: 450px;
-    top: 560px;
+    display: inline-block;
 }
 
     #TLimage img:hover {
@@ -148,9 +154,8 @@ header p {
     }
 
 #ActImage {
-    position: absolute;
-    left: 250px;
-    top: 540px;
+    display: inline-block;
+    padding-right: 80px;
 }
 
     #ActImage img:hover {
@@ -165,9 +170,9 @@ header p {
     }
 
 #portraitImg {
-    position: absolute;
-    left: 250px;
-    top: 555px;
+    display: inline-block;
+    padding-right: 70px;
+    padding-top: 10px;
 }
 
     #portraitImg img:hover {
@@ -180,6 +185,13 @@ header p {
         padding-top: 10px;
         font-weight: 600
     }
+
+#audioPortrait {
+    float: right;
+    clear: both;
+    padding-top: 10px;
+    padding-right: 10px;
+}
 
 
 #arrow {
@@ -204,11 +216,17 @@ header p {
     padding-top: 10px;
 }
 
+#aboutme {
+    display: inline-block;
+    float: right;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
 #aboutme p {
     text-align: right;
     font-size: 14pt;
     font-weight: 400;
-    padding-top: 50px;
     color: #E6E6E6;
 }
 
@@ -229,24 +247,24 @@ header p {
         color: white;
     }
 
+    #skills {
+        display:inline-block;
+        float: left;
+        margin-bottom:50px;
+        padding-top:50px;
+    }
+
 #skills h2 {
     font-weight: 400;
     font-size: 16pt;
-    float: left;
-    position: relative;
-    bottom: 162px;
-    left: 200px;
 }
 
 #skills ul {
-    float: left;
     list-style-type: none;
-    position: relative;
-    bottom: 130px;
     font-size: 14pt;
-    right: 52px;
     font-weight: 600;
     color: #999999;
+    display:inline-block;
 }
 
 #skills li {
